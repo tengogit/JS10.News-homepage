@@ -178,7 +178,7 @@ section:hover{
 }
 .burger-menu{
     width: 256px;
-  height: 100vh;
+  height: 100dvh;
     background-color: white;
     position: fixed;
     top: 0;
