@@ -1,0 +1,16 @@
+@media(min-width:768px){
+    .cont{
+        max-width: 768px;
+        padding: 28px 80px 80px 80px;
+    }
+    section{
+        padding: 32px 40px;
+    }
+    section img{
+        width: 524px;
+    }
+    .burger-menu{
+        width: 312px;
+        padding: 27px 36px;
+    }
+}

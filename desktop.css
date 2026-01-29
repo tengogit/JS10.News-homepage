@@ -1,0 +1,75 @@
+@media(min-width:1024px){
+    .cont{
+       max-width: 1440px;
+        padding: 30px 163px 126px 165px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 32px;
+    }
+    section{
+        width: 350px;
+  margin-top: 0;
+    }
+    .main-box2{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 32px;
+   
+    }
+    h1{
+        font-size: 56px;
+    
+    }
+    h2{
+        margin-bottom: 70px;
+        line-height: 26px;
+    }
+  .main-box2-txt{
+    margin-top: 0;
+  }
+  article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+  }
+  h5{
+    font-size: small;
+  }
+  body{
+    overflow-y: hidden;
+  }
+  .burger-menu{
+    display: none;
+  }
+  .burger-icon{
+    display: none;
+  }
+  .desktop-nav{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 40px;
+    list-style-type: none;
+
+  }
+  .desktop-nav a{
+    display: block;
+    color: #5E607A;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .desktop-nav a:hover{
+    color: #F15D51;
+   transform: scale(1.1);
+   transform: translateY(-5px);
+  }
+  .readmore:hover{
+    background-color: #00001A;
+    color:white;
+ 
+  }
+  
+
+}
