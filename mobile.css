@@ -31,6 +31,7 @@ body {
     overflow-y: auto;
     font-family: "Inter", sans-serif;
     background-color:var(--body-bg-color) ;
+    scroll-behavior: smooth;
 
 }
 .cont{
